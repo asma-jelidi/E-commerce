@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="coll.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@500&family=Roboto:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
@@ -14,28 +15,34 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@500&family=Krub:ital,wght@0,400;1,300&family=Roboto:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
-    <title>Collection</title>
+ <title>Collection</title>
 </head>
 <body>
-    <header class="flex" >
+   
+    <header class="flex navbar" >
         <a href="#logo" class="logo"><img src="collection/logo.png" alt="logo"></a>
-        <nav class="flex" >
-           
-       <a href="#femme">Femme</a>
-        <a href="#homme">Homme</a>
-        <a href="#enfant">Enfant</a>
-        <a href="#promo">Promotion</a>
-        <a href="#collec">Collection</a>
+        <a href="#b" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+       <nav class="navbar-links"> <ul class="flex navul">
+           <li>  <a href="#femme">Femme</a> </li>
+            <li> <a href="#homme">Homme</a></li>
+                <li> <a href="#enfant">Enfant</a></li>
+                    <li> <a href="#promo"> <span> Promotion</span></a></li>
+                        <li>  <a href="#collec">Collection</a></li>
+    </ul>
             </nav>
               <div class="flex iconH">
-              <a href="#">  <img src="collection/i1.png" alt="icon2"></a>
-                <a href="#"><img src="collection/i3.png" alt="icon3"></a>
-                <a href="#"><img src="collection/i2.png" alt="icon1"></a>
+              <a href="#">  <img src="collection/Shop.png" alt="icon2"></a>
+                <a href="#"><img src="collection/search.png" alt="icon3"></a>
+                <a href="#"><img src="collection/User.png" alt="icon1"></a>
             </div>
     </header>
+    
     <main>
         <h1>Femme.Nos Piéces D'exceptions</h1>
-        <div class="divImg1">
+        <div class="divImg1 opacité">
             <figure>
             <img src="collection/Vaneta.png" alt="image1" class="image">
             <figcaption><ul><li class="l1">Bottega Veneta</li> <li>639,99 €</li></ul></figcaption>
@@ -50,7 +57,7 @@
         </figure>
        
         </div>
-        <div class="divImg1 div2">
+        <div class="divImg1 div2 opacité">
             <figure>
             <img src="collection/Dior.png" alt="image1" class="image">
             <figcaption><ul><li class="l1">Bottega Veneta</li> <li>639,99 €</li></ul></figcaption>
@@ -66,14 +73,14 @@
        
         </div>
     </main>
-    <footer class="flex">
+    <footer class=" flex foo">
         <div class="F"><p>rejoignez-nous</p>
         <div class="iconF"><a href="#meta"><img src="collection/Meta.png" alt="facebook"></a>
             <a href="#meta"><img src="collection/Instagram.png" alt="Instagram"></a>
             <a href="#meta"><img src="collection/Twitter.png" alt="Twitter"></a></div>
         
         </div>
-        <ul class="textf">
+         <ul class="textf">
                  <li><a href="#service">Service</a></li>
                  <li><a href="#service">E-commande</a></li>
                  <li><a href="#service">Entreprise</a></li>
@@ -82,6 +89,7 @@
         </ul>
         
     </footer>
+
     
 </body>
 </html>
