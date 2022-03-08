@@ -197,7 +197,7 @@ nav a:hover{background:  rgb(255, 255, 255, 0.5);
 
 .foo{
   display: grid;
-  grid-template-columns:3fr 1fr 1fr ;
+  grid-template-columns:1fr 1fr 1fr ;
   grid-template-rows: 1fr 2fr ;
   height: 280px;
 
