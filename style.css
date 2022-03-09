@@ -5,9 +5,9 @@
   color: black;}
  /*header*/
 header {
-  position:sticky;
+  position:relative;
   width: 1366;
-  height: 90px;
+  height: 60px;
   background-color: rgba(153, 139, 94, 0.5);
   left: 0px;
    right: 0px ;
@@ -87,14 +87,13 @@ figure{
       color: #996E5E ;
       font-weight: medium;
       font-style: italic;
-      font-size: 30px;
-      line-height: 31px;
-    text-transform: capitalize;
+      font-size: 25px;
+      text-transform: capitalize;
       text-shadow: 0px, 4px, 4px, 0,25; }
       /*main*/
       /*footer*/
   footer{
-      height: 250px;
+      height: 185px;
       left: 0px;
       right: 0px;
       background-color: rgba(153, 139, 94, 0.5);
@@ -107,7 +106,7 @@ figure{
    gap: 27px;
    height: 60px;
    width: 187.133px;
-   margin-left: 115px;
+   margin-left: 60px;
    display: flex;
    flex-direction: column;
    align-items: center;}
@@ -123,7 +122,7 @@ figure{
      }
      /*footer*/
      /*annimation*/
-nav a:hover{background:  rgb(255, 255, 255, 0.5);
+nav a:hover{background:  rgba(255, 255, 255, 0.5);
     transition: all 0.3s ease;}
     .opacité figure img {
       opacity: 1;
@@ -136,7 +135,7 @@ nav a:hover{background:  rgb(255, 255, 255, 0.5);
        position: absolute;
        height: 27px;
                 width: 40px;
-         top: 26px;
+         top: 10px;
            gap: 5px;    
             display: none;
       flex-direction: column;
@@ -147,7 +146,7 @@ nav a:hover{background:  rgb(255, 255, 255, 0.5);
 .toggle-button .bar{
   height:30px;
    width:100%;
-  background-color:black;
+  background-color:red;
   border-radius: 5px; ;
 }
 @media (max-width: 683px) {
@@ -158,30 +157,37 @@ nav a:hover{background:  rgb(255, 255, 255, 0.5);
 .toggle-button{
     display: flex;
     align-self: flex-end;
-    margin-right: 20px;
-
+    margin-right: 15px;
+    
     
   }
   .navbar-links{
     display: none;
     width: 100%;
+    
   }
-  .logo{margin-left: 26px;
-    margin-top: 26px;} 
+  .logo{margin-left: 15px;
+    margin-top: 10px;} 
 
   
   .navbar{
-    flex-direction: column;
+    flex-direction:column;
     align-items: flex-start;
   }
   .navul {display:flex;
-    flex-direction:row;
+    flex-direction: column;
+    
+    align-items:center;
+  margin:0px;
+   
   }
   
-  .navbar-links li a {padding: .5rem 1rem;
+  .navbar-links li a {
+
   gap:19px;}
   .navbar-links.active{
     display: flex;
+    
   }
   h1{font-size:18px}
   .divImg1{ 
@@ -193,23 +199,6 @@ nav a:hover{background:  rgb(255, 255, 255, 0.5);
     margin-right:auto;
   }
   .div2{margin-top: 55px;}
-
-
-.foo{
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr ;
-  grid-template-rows: 1fr 2fr ;
-  height: 280px;
-
-}
-.F{display:block;
-  margin:0;
-  grid-column: 2;
-  grid-row: 1;
-  }
-  .textf{grid-column:2;
-  grid-row: 2}
-.iconF{margin-top: 15px;}
 .iconH{
   overflow: hidden;
 width: 0;
