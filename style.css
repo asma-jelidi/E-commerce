@@ -26,7 +26,9 @@ nav{
  gap: 35px;
   width: 574px;
   height: 28px;
-  top: 34px;}
+  top: 34px ;
+ 
+}
 .navul li a{
   color: black;
   font-weight: 500;
