@@ -6,17 +6,18 @@
     color: black;
   }
    
+  
   header {
     position:relative;
-    width: 1518px;
+    width: 1366;
     height: 60px;
     background-color: rgba(153, 139, 94, 0.5);
     left: 0px;
      right: 0px ;
      top:0px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-     
-    flex-wrap: wrap;}
+     flex-wrap: wrap;}
+    
   .logo{
     height:30px;
    width: 225px;
@@ -25,41 +26,31 @@
     color: #998b5e;
   }
   nav{
-  
-   margin-bottom: 35px;
-   margin-right: 250px;
-   margin-left: 55px;
+   gap: 35px;
+    
+    top: 34px ;
+   
   }
-
- 
-    .navul{list-style-type: none;}
-  .navul li a{
-      
+  nav a{
     color: black;
     font-weight: 500;
     font-size: 18px;
     line-height: 23,4px;
     padding: 6px 15px;
     border-radius: 20px;
-   transition: all 0.3s ease;
-   
-}
-   
+   transition: all 0.3s ease;}
   .flex{
     display: flex;
     flex-direction: row;
-  justify-content: space-between;
+   justify-content: space-between;
    align-items:center;
   }
-
   .iconH{
    width: 133px;
    height: 27px;
    margin-right: 60px;
    top:37px;
    gap:29px;}
-   
-  
   /* DESCRIPTION */
   .liste{
     margin-top: 15px; 
