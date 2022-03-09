@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'koho', sans-serif;
+    color: black;
+  }
+   
+  header {
+    position:relative;
+    width: 1518px;
+    height: 60px;
+    background-color: rgba(153, 139, 94, 0.5);
+    left: 0px;
+     right: 0px ;
+     top:0px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+     
+    flex-wrap: wrap;}
+  .logo{
+    height:30px;
+   width: 225px;
+   margin-left: 63px;}
+   span{
+    color: #998b5e;
+  }
+  nav{
+  
+   margin-bottom: 35px;
+   margin-right: 250px;
+   margin-left: 55px;
+  }
+
+ 
+    .navul{list-style-type: none;}
+  .navul li a{
+      
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23,4px;
+    padding: 6px 15px;
+    border-radius: 20px;
+   transition: all 0.3s ease;
+   
+}
+   
+  .flex{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+   align-items:center;
+  }
+
+  .iconH{
+   width: 133px;
+   height: 27px;
+   margin-right: 60px;
+   top:37px;
+   gap:29px;}
+   
+  
+  /* DESCRIPTION */
+  .liste{
+    margin-top: 15px; 
+  }
+  
+  .panier{
+    margin-right: 39px;
+  }
+ 
+  
+  .description{
+  height: 761px;
+  margin-left: 123px;
+  margin-right: 123px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  }
+  
+  .grandePhoto{
+  width: 540px;
+  height: 760px;
+  }
+  
+  .grandephoto{
+   padding-top: 52px;
+  }
+  
+  .robeDior{
+  width: 540px;
+  height: 695px;
+  margin-top: 137px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  }
+  
+  .description h1{
+  font-family: 'Krub', sans-serif;
+  color: #996E5E;
+  
+  margin-bottom: 15px
+  }
+  
+  .robeDior p{
+     font-size: 30px;
+     font-family: 'Krub', sans-serif;
+  }
+  
+  .panier{
+     padding-top: 16px;
+     padding-left: 23px;
+     margin-bottom: 14px;
+  }
+  
+  
+  .lienPage12{
+  width: 405px;
+  height: 33px;
+  font-family: 'Krub', sans-serif;
+  font-size: 1em;
+  color: #996E5E;
+  font-style: italic;
+  padding-top: 52px;
+  
+  }
+  
+  ul{
+    font-family: 'Krub', sans-serif;
+    margin-top: 27px;
+    margin-left: 45px;
+  }
+  
+  
+  /* A porter avec */
+  
+  .aPorterAvec{
+  
+  height: 568px;
+  margin-left: 123px;
+  margin-top: 160px;
+  margin-right: 123px;
+  margin-bottom: 108px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  }
+  
+  .boucleOreille{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 54px;
+  }
+  
+  .sac{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     padding-top: 52px;
+  }
+  
+  .centre{
+     text-align: center;
+  }
+  
+  .titre30{
+     font-size: 1.875em;
+     color: #996E5E;
+     font-family: 'Krub', sans-serif;
+  }
+  
+  .aPorterAvec p{
+     font-size: 1.75em;
+     font-family: 'Krub', sans-serif;
+  }
+  
+  .titreAporter{
+  margin-bottom: 13px;
+  font-family: 'Krub', sans-serif;
+  color: #996E5E;
+  }
+  
+  
+  /* footer */
+  
+  footer{
+  height: 250px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(153, 139, 94, 0.5);
+  margin-top: 150px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  
+  }
+  
+  .F{
+  gap: 27px;
+  height: 60px;
+  width: 187.133px;
+  margin-left: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .textf{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 149px;
+  width: 123.48px;
+  left: 1128px;
+  margin-right: 104px;
+  gap: 19px;
+  }
+  
+   /* Animation */
+  
+   nav a:hover{
+     background: rgba(255, 255, 255, 0.5 );
+      transition: all 0.3s ease;
+  
+   }
+  
+  
