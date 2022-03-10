@@ -1,0 +1,292 @@
+*{  margin: 0;
+    padding: 0;
+    font-family: 'koho',sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+ 
+}
+
+.logo{ 
+    padding: 2px;
+     height:30px; 
+ width: 197px;
+ margin-left: 15px;
+}
+
+
+.top{  
+    margin: 0px;
+    padding: 0px;
+    position: absolute sticky;
+    height: 60px;
+    
+    margin-bottom: 34px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+
+    font-family: sans-serif;
+    /* color: black; */
+    background-color: rgba(153, 139, 94, 0.5);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.menu4{
+    color: #998B5E;
+    opacity: 1;
+
+}
+
+#pictos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+main .box{
+    display: flex;
+    flex-direction: column;
+    z-index: 1
+}
+main{
+    margin-top: 105px;
+    margin : 70px ;
+
+}
+
+
+.box1{
+    justify-content: center;
+    /* margin-top: 140px; */
+    width: 1205px;
+    height: 519px;   
+    padding-bottom: 65px;
+    z-index: 99
+
+}
+
+.box2{
+    width: 349px;
+    height: 519px;
+    padding-right: 1em;
+    align-items: left;
+}
+
+
+.box3{
+    width: 838px;
+    height: 519px;
+    align-items: right;
+
+}
+
+.bas{
+    width: 1205px;
+    height: 519px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between 42px;    
+
+}
+
+.menu{
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    padding: 6px 15px;
+    line-height: 23,4px;
+
+}
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    justify-content: space-between;
+    text-decoration: none;
+    height: 180px;
+    background-color: rgba(153, 139, 94, 0.5); ;
+    padding: 2em  ;
+    color: black;
+}
+
+.RS{
+    position: absolute;
+    width: 145.74px;
+    height: 63px;
+    left: 200px;
+    top: 1385px;
+}
+
+.flex{
+    display: flex;
+}
+
+.footer .infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    width: 131.35px;
+    height: 149px;
+    left: 1150px;
+    top: 1335px;
+
+}
+
+
+/* 
+.h1{
+    z-index: 99;
+    font-weight: bold;
+    font-family: KoHo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 58px;
+} */
+
+/* slider */
+
+.slide{
+    float: left;
+}
+
+.slides{
+    width: calc(1205px*4);
+    animation: glisse 15s infinite;
+}
+
+.slider{
+    width: 1205px;
+    overflow: hidden;
+}
+
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+    }
+    9%{
+        transform: translateX(0);
+    }
+
+    18%{
+        transform: translateX(0);
+    }
+
+    25%{
+        transform: translateX(-1205px);
+    
+    }
+
+    30%{
+        transform: translateX(-1205px);
+    
+    }
+    37%{
+        transform: translateX(-1205px);    
+    }
+
+    50%{
+        transform: translateX(-2410px);
+    
+    }
+
+    60%{
+        transform: translateX(-2410px);
+    
+    }
+    70%{
+        transform: translateX(-2410px);
+    
+    }
+    75%{
+        transform: translateX(-3615px);
+    
+    }
+    85%{
+        transform: translateX(-3615px);
+    
+    }
+    95%{
+        transform: translateX(-3615px);
+    
+    }
+    100%{
+        transform: translateX(0px);
+    
+    }
+    100%{
+        transform: translateX(0px);
+    
+    }
+}
+
+/* animation */
+/* hovering */
+
+nav a:hover{
+    background:rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+    border-radius: 20px;
+
+}
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* menu burger */
+.toggle-button .bar{
+    height:30px;
+     width:100%;
+    background-color:black;
+    border-radius: 5px; 
+  }
+
+  .toggle-button{
+    position: absolute;
+    height: 27px;
+             width: 40px;
+      top: 10px;
+        gap: 5px;    
+         display: none;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 30px;
+   height: 26px;
+ }
+
+
+  @media (max-width: 683px) {
+  *{margin: 0;
+    padding: 0;
+   
+  }
+
+  .toggle-button{
+      display: flex;
+      align-self: flex-end;
+      margin-right: 15px;
+  }
+  .{
+    overflow: hidden;
+  width: 0;
+  }
+  }
+
+/* menu burger */
+
+main a:hover img{
+    background-color:rgba(255, 255, 255, 0.5)
+}
