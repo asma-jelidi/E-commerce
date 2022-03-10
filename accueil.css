@@ -3,23 +3,24 @@
     font-family: 'koho',sans-serif;
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
  
 }
 
 .logo{ 
-    padding: 2px;
+    /* padding: 2px; */
      height:30px; 
- width: 197px;
- margin-left: 15px;
+ width: 240px;
+ margin-left: -30px;
+  
 }
 
 
 .top{  
     margin: 0px;
     padding: 0px;
-    position: absolute sticky;
-    height: 60px;
+    position: relative;
+    height: 70px;
     
     margin-bottom: 34px;
     display: flex;
@@ -29,7 +30,8 @@
     font-family: sans-serif;
     /* color: black; */
     background-color: rgba(153, 139, 94, 0.5);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .menu4{
@@ -38,21 +40,34 @@
 
 }
 
-#pictos{
+.pictos {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center ;
+    width: -100px;
+    height: 27px;
+    gap: 10px;
 }
+   
+
+
+   
+
 
 
 main .box{
     display: flex;
     flex-direction: column;
-    z-index: 1
+    /* marge a VERIFIER */
+
 }
 main{
     margin-top: 105px;
-    margin : 70px ;
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+
 
 }
 
@@ -87,7 +102,6 @@ main{
     height: 519px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between 42px;    
 
 }
 
@@ -97,7 +111,6 @@ main{
     border-radius: 20px;
     padding: 6px 15px;
     line-height: 23,4px;
-
 }
 
 
@@ -109,10 +122,11 @@ main{
     font-family: sans-serif;
     justify-content: space-between;
     text-decoration: none;
-    height: 180px;
+    height: 140px;
     background-color: rgba(153, 139, 94, 0.5); ;
     padding: 2em  ;
     color: black;
+
 }
 
 .RS{
@@ -120,11 +134,14 @@ main{
     width: 145.74px;
     height: 63px;
     left: 200px;
-    top: 1385px;
+    top: 1385px; 
+
 }
 
 .flex{
     display: flex;
+    margin-left: 110px;
+
 }
 
 .footer .infos{
@@ -135,22 +152,11 @@ main{
     position: absolute;
     width: 131.35px;
     height: 149px;
-    left: 1150px;
+    left: 1225px;
     top: 1335px;
 
 }
 
-
-/* 
-.h1{
-    z-index: 99;
-    font-weight: bold;
-    font-family: KoHo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 58px;
-} */
 
 /* slider */
 
@@ -234,7 +240,7 @@ main{
 nav a:hover{
     background:rgba(255, 255, 255, 0.5);
     transition: all 0.3s ease;
-    border-radius: 20px;
+    border-radius: 50px;
 
 }
 
@@ -279,7 +285,7 @@ nav{
       align-self: flex-end;
       margin-right: 15px;
   }
-  .{
+  .pictos{
     overflow: hidden;
   width: 0;
   }
